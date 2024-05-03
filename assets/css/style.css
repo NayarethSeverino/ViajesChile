@@ -1,0 +1,90 @@
+* {
+  font-family:"Cabin", sans-serif; 
+  color: #fff;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --ocean: #0dcaf0;
+}
+
+.global {
+  background-color: #000;
+}
+
+.navbar {
+  background-color: transparent !important; 
+  position: absolute; 
+  width: 100%; 
+  z-index: 1000; 
+}
+  
+.carousel {
+  width: 100%; 
+}
+  
+.carousel-inner {
+  border: none !important; 
+}
+  
+.carousel-item {
+  height: 100vh; 
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: transparent; 
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: var(--black) !important 
+}
+
+
+#card {
+  background-color: var(--ocean);
+  border: 1px solid white;
+}
+
+.card-img-custom {
+  max-height: 201px; 
+}
+
+#icono {
+  background-color: var(--ocean);
+  padding: 4px 0;
+}
+
+.btn-ocean {
+  background-color: var(--ocean); 
+  color: var(--white); 
+  border: 1px solid var(--ocean); 
+}
+
+.btn-ocean:hover {
+  background-color: var(--ocean); 
+  border-color: var(--ocean); 
+  color: var(--white); 
+}
+
+footer {
+  background-color: var(--ocean);
+}
+
+footer h3 {
+  color: var(--white);
+  font-weight: lighter;
+}
+
+.icon-link {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.icon-link span {
+  color: var(--white);
+}
