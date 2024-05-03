@@ -14,7 +14,7 @@ $(document).ready(function() {
   
 $(document).ready(function(){
     $('#carouselExample').carousel({
-        interval: 3000
+        interval: 3500
     });
   });
 
